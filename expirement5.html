@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form>
+        <h3 style="text-align:center;">Student Registration Form</h3>
+        <hr>
+        
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter valid email address"><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password"><br><br>
+        
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other<br><br>
+        
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="">-- Select Course --</option>
+            <!-- You can add course options here -->
+        </select><br><br>
+        
+        <label for="contact">Contact No:</label>
+        <input type="tel" id="contact" name="contact" placeholder="Enter phone number"><br><br>
+        
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" placeholder="Enter your address"></textarea><br><br>
+        
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+        <hr>
+        <p style="text-align:center;">&copy; 2025 Student Registration Portal</p>
+    </form>
+</body>
+</html>
